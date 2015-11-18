@@ -1,3 +1,11 @@
+intAnswer = _
+    Msgbox("Do you want to create patching advertisements?", _
+        vbYesNo, "Create Advertisements")
+
+If intAnswer = vbNo Then
+    wscript.quit
+End If
+
 'TimeFlags
 Const ENABLE_AVAILABLE = &H00000004
 Const ENABLE_MANDATORY = &H00000010
