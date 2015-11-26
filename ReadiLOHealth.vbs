@@ -13,4 +13,4 @@ Set objWshScriptExec = objShell.Exec("X:\Tools\iLo\hponcfg /i")
 objWshScriptExec.StdIn.Writeline requestXML
 objWshScriptExec.StdIn.Close()
 
-WScript.echo objWshScriptExec.StdOut.ReadAll file contents here
+WScript.echo objWshScriptExec.StdOut.ReadAll
