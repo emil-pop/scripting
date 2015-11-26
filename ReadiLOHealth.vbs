@@ -1,4 +1,4 @@
-EnterDim objShell,requestXML
+Dim objShell,requestXML
 Set objShell = wscript.createObject("wscript.shell")
 
 requestXML = vBCrLf & "<RIBCL VERSION =""2.0"">" & vBCrLf
